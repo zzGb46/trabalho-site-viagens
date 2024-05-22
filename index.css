@@ -21,7 +21,12 @@ main{
    
 }
 
-
+#mini{
+transition: all 0.5 ease-in-out;
+}
+#mini:hover{
+    transform: scale(1.1);
+}
 
 
 #foto{
@@ -55,6 +60,7 @@ li{
     border-bottom-left-radius: 20%;
     text-decoration: none;
     color: white;
+    
    
 
 }
@@ -78,6 +84,7 @@ header{
 h1{
     position: absolute;
     margin-top: 150px;
+    color: red  ;
 }
 
 #fundo{
